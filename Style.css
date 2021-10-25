@@ -1,0 +1,27 @@
+
+.MainNext{
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: lightslategray;
+    padding: 20px;
+
+
+    position: absolute;
+        /* Centers the entire MainNext at the center of the image*/
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+
+.Background{
+    /* Places image to take up entire width and 1/2 height of the webpage */
+    /* and makes it a background image*/
+    background-image: url("HomepageBackground.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
